@@ -17,15 +17,16 @@ class ViewController: UIViewController {
 
     @IBAction func buttonAction(_ sender: UIButton) {
         var viewController: UIViewController!
+        let viewName = "MainView"
         switch sender.tag {
             case 0:
-                viewController = URLRequestViewController(nibName: "URLRequest-View", bundle: nil)
+                viewController = URLRequestViewController(nibName: viewName, bundle: nil)
                 break
             case 1:
-                viewController = AlamofireRequestViewController(nibName: "AlamofireRequestWithObjectMapper-View", bundle: nil)
+                viewController = AlamofireViewController(nibName: viewName, bundle: nil)
                 break
             case 2:
-                viewController = AlamofireRequestWithObjectMapperViewController(nibName: "AlamofireRequestWithObjectMapper-View", bundle: nil)
+                viewController = AlamofireWithObjectMapperViewController(nibName: viewName, bundle: nil)
                 break
             default: break
         }

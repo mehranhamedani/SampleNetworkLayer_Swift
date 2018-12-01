@@ -25,7 +25,7 @@
             </objects>
             <point key="canvasLocation" x="-319" y="131"/>
         </scene>
-        <!--Network Layer Sample-->
+        <!--View Controller-->
         <scene sceneID="gtR-a5-aKL">
             <objects>
                 <viewController id="4xi-1x-OCg" customClass="ViewController" customModule="SampleNetworkLayer_Swift" customModuleProvider="target" sceneMemberID="viewController">
@@ -75,7 +75,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qiZ-VV-GQy"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Network Layer Sample" id="Rcd-1L-yql"/>
+                    <navigationItem key="navigationItem" id="Rcd-1L-yql"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NfY-sS-Xos" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

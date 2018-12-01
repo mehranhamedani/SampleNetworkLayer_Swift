@@ -1,15 +1,14 @@
 //
-//  Country.swift
+//  ModelBase.swift
 //  SampleNetworkLayer_Swift
 //
-//  Created by Mehran Hamedani Nezhad on 11/27/18.
+//  Created by Mehran Hamedani Nezhad on 12/1/18.
 //  Copyright © 2018 BehcomStudio. All rights reserved.
 //
 
 import Foundation
-import UIKit
 
-extension URLRequest{
+struct ModelBase {
     
     class Country {
         

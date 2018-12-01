@@ -6,6 +6,6 @@
 //  Copyright © 2018 BehcomStudio. All rights reserved.
 //
 
-struct URLRequest{
+struct URLRequestTest{
     
 }
