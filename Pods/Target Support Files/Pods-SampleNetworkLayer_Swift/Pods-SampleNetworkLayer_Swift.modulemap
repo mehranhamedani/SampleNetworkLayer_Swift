@@ -1,0 +1,6 @@
+framework module Pods_SampleNetworkLayer_Swift {
+  umbrella header "Pods-SampleNetworkLayer_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
